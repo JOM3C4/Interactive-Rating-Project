@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Overpass';
+    background-color: #141519;
+}
+main{
+    height: 450px;
+    width: 400px;
+    background-color: #1C232D;
+    margin: 70px auto;
+    border-radius: 50px;
+}
+.min-container{
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 45px;
+    gap: 25px;
+}
+.image{
+    padding: 13px 15px;
+    background-color: #252D37;
+    border-radius: 50%;
+}
+h1{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
+}
+.numbers{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.numbers button{ 
+    padding: 15px 19px;
+    border: none;
+    border-radius: 55%;
+    background-color: #272F38;
+    color: white;
+}
+.numbers button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.numbers button:focus{
+    background-color: #FC7615;
+}
+.btn button{
+    width: 300px;
+    height: 39px;
+    border-radius: 20px;
+    border: none;
+    background-color:#FC7615;
+    color: white;
+    cursor: pointer;
+}
+.btn button:hover{
+   background-color: white;
+   color: #FC7615;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #FC7615;
+}
+.phrase-thankyou{
+    width: 180px;
+    color: #F97618;
+}
+.phrase-thankyou{
+    padding: 0.5rem;
+    background-color: #252E3F;
+    border-radius: 20px
+}
+
+.max-container{
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+}
